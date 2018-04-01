@@ -126,7 +126,7 @@ Here are the results of the prediction:
 | No Entry             | No Entry 
 | Stop Sign      		| Stop sign  
 
-The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This is lower than the test accuaracy of 93%. We need more data to train the model.
+The model was able to correctly guess 4 of the 5 traffic signs, which gives an accuracy of 80%. This is lower than the test accuaracy of 93%. I guess there are two reasons. First, the data is not "clean", i.e., the sizes of the 5 new test images I found online are different from the training/validation/testing images, and they are even different from each other. Second, the model needs more heterogeneous data to train.
 
 #### 3. Describe how certain the model is when predicting on each of the five new images by looking at the softmax probabilities for each prediction. Provide the top 5 softmax probabilities for each image along with the sign type of each probability. 
 
